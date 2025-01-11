@@ -126,6 +126,20 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 1s;
 }
+@media (max-width: 768px) {
+    #wraper, #wraper2 {
+        width: 100%; /* Cards take the full width of the screen */
+        height: auto; /* Adjust height to content */
+        margin: 10px 0; /* Add some space between cards */
+        float: none; /* Disable floating to ensure stacking */
+    }
+
+    #wraper img, #wraper2 img {
+        width: 100%; /* Ensure images fit the card width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
         </style>
         <div class = "div" id = "d1">
             <center>
